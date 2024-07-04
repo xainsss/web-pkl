@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- style css -->
+    <link rel="stylesheet" href="style.css" />
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- tailwind -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- animation -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <title>Home Page</title>
+  </head>
+  <body>
+    <section class="header" id="home">
+      <nav class="container-nav">
+        <a href="index.html"
+          ><img src="/img/Tambahkan_judul-removebg-preview.png" alt=""
+        /></a>
+        <div class="nav-links">
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#gallery">Gallery</a></li>
+            <li><a href="#">Profile</a></li>
+            <li><a href="#">Project</a></li>
+          </ul>
+        </div>
+      </nav>
+      <div class="text">
+        <h1
+          data-aos="fade-down"
+          data-aos-easing="linear"
+          data-aos-duration="1300"
+        >
+          WebCuy University
+        </h1>
+        <p
+          data-aos="fade-zoom-in"
+          data-aos-easing="ease-in-back"
+          data-aos-delay="500"
+          data-aos-offset="0"
+        >
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellat,
+          rem dolores?<br />
+          Aliquam excepturi nostrum ducimus, fugit tempore autem
+        </p>
+        <a
+          href=""
+          class="hero-btn"
+          data-aos="fade-up"
+          data-aos-anchor-placement="bottom-bottom"
+          data-aos-delay="300"
+          >Our Social Media</a
+        >
+      </div>
+    </section>
+
+    <!-- galery -->
+
+    <section
+      class="gallery"
+      id="gallery"
+      data-aos="fade-left"
+      data-aos-duration="1200"
+    >
+      <div class="gallery-wp">
+        <div class="panel active" style="background-image: url(img/foto1.jpg)">
+          <h1>Gallery</h1>
+        </div>
+
+        <div class="panel" style="background-image: url(img/foto7.jpg)">
+          <h1></h1>
+        </div>
+        <div class="panel" style="background-image: url(img/foto6.jpg)">
+          <h1></h1>
+        </div>
+        <div class="panel" style="background-image: url(img/foto4.jpg)">
+          <h1></h1>
+        </div>
+      </div>
+    </section>
+
+    <!-- script -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+    <script src="script.js"></script>
+  </body>
+</html>
